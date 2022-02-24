@@ -1,0 +1,20 @@
+:root {
+  --cta-color: rgb(255, 82, 191);
+  --primary-bg-color: rgb(235, 251, 255);
+  --primary-text-color: rgb(0, 37, 46);
+  --secondary-text-color: rgb(128, 141, 153);
+  --headings-font: "Poppins", sans-serif;
+  --body-font: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.6%;
+  font-family: var(--body-font);
+  scroll-behavior: smooth;
+}
