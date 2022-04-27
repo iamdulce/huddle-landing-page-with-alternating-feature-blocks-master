@@ -195,9 +195,41 @@ html {
 
 .footer .footer-content {
   padding-block-start: 40%;
+  font-size: 1.6rem;
 }
 
-.footer .footer__img-container img {
+.footer-content .footer__img-container img {
   filter: invert(100%) sepia(6%) saturate(0%) hue-rotate(70deg) brightness(108%)
     contrast(108%);
+}
+
+.footer-content .footer__contact-info {
+  margin-block-start: 30px;
+}
+
+.footer__contact-info > div {
+  display: flex;
+  padding-block-end: 30px;
+}
+
+.footer__contact-info p {
+  margin-inline-start: 20px;
+  line-height: 1.6;
+}
+
+.footer-content .footer__list {
+  margin-block-start: 30px;
+}
+
+.footer-content .footer__list ul {
+  font-size: 1.8rem;
+  list-style: none;
+}
+
+.footer__list .footer__list-one li {
+  margin-block-end: 20px;
+}
+
+.footer__list .footer__list-two li {
+  margin-block-end: 20px;
 }
