@@ -40,7 +40,7 @@ html {
   justify-content: space-between;
   align-content: center;
   text-align: center;
-  padding-block-start: 10%;
+  padding-block-start: 5vh;
 }
 
 .nav__logo-container {
@@ -118,6 +118,7 @@ html {
 }
 
 .main .card {
+  width: 100%;
   min-height: 470px;
   max-height: 600px;
   margin-block-start: 40px;
@@ -149,6 +150,8 @@ html {
 .cta {
   position: relative;
   width: 335px;
+  /* left: 50%;
+	 transform: translate(-50%, -50%) */
 }
 
 .cta .cta-content {
@@ -194,7 +197,7 @@ html {
 }
 
 .footer .footer-content {
-  padding-block-start: 40%;
+  padding-block-start: 20vh;
   font-size: 1.6rem;
 }
 
@@ -227,9 +230,40 @@ html {
 }
 
 .footer__list .footer__list-one li {
-  margin-block-end: 20px;
+  padding-block-end: 20px;
 }
 
 .footer__list .footer__list-two li {
-  margin-block-end: 20px;
+  padding-block-end: 20px;
+}
+
+.footer-content .sm-icons {
+  text-align: center;
+  margin-block-start: 30px;
+}
+
+.sm-icons a {
+  text-decoration: none;
+}
+
+.sm-icons svg {
+  width: 20px;
+  height: auto;
+  margin-inline: 5px;
+}
+
+.footer-content .attribution-block {
+  margin-block-start: 20px;
+  text-align: center;
+  padding-block-end: 20px;
+}
+
+.attribution-block p {
+  font-size: 1rem;
+}
+
+.attribution-block .attribution a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--cta-color);
 }
