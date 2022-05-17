@@ -71,7 +71,7 @@ html {
 }
 
 .hero .hero__title {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   line-height: 1.6;
 }
 
@@ -79,7 +79,7 @@ html {
   padding: 0 15px;
   /* or 5% */
   margin-block-start: 20px;
-  line-height: 1.4;
+  line-height: 1.6;
   font-size: 1.6rem;
 }
 
@@ -119,7 +119,7 @@ html {
 
 .main .card {
   width: 100%;
-  min-height: 470px;
+  /* min-height: 470px; makes the minimal bigger than I want to */
   max-height: 600px;
   margin-block-start: 40px;
   padding: 30px 40px;
@@ -137,7 +137,7 @@ html {
 }
 
 .card .card__title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--primary-text-color);
 }
 
@@ -149,7 +149,6 @@ html {
 /* ----------CTA------------ */
 .cta {
   position: relative;
-  width: 335px;
   /* left: 50%;
 	 transform: translate(-50%, -50%) */
 }
@@ -159,25 +158,24 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 180px;
-  width: 100%;
   position: absolute;
-  bottom: -70px;
+  top: -110px;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  min-width: 335px;
+  height: 180px;
+  padding-inline: 20px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 -5px 5px rgb(0 0 0 / 5%);
-  text-align: center;
-  font-size: 1.4rem;
 }
 
 .cta .cta__title {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: var(--primary-text-color);
 }
 
 .cta .cta__button {
-  /* max-width: 300px;
-  min-width: 200px; */
   margin-block-start: 20px;
   padding: 10px 40px;
   border-radius: 30px;
@@ -225,7 +223,7 @@ html {
 }
 
 .footer-content .footer__list ul {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   list-style: none;
 }
 

@@ -1,0 +1,18 @@
+.hero {
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  margin: 0;
+}
+
+.hero .hero__title {
+  font-size: 3.2rem;
+}
+
+.hero .hero__text {
+  padding: 0;
+}
+
+.hero .hero__img-container img {
+  width: 500px;
+}

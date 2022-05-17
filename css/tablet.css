@@ -1,0 +1,55 @@
+.header {
+  background-image: url(/images/bg-hero-desktop.svg);
+}
+
+.nav > .nav__logo-container img {
+  width: 150px;
+}
+
+.nav > .nav__small-button {
+  width: 150px;
+  padding: 10px 20px;
+}
+
+.hero {
+  align-items: center;
+}
+
+.hero .hero__title {
+  font-size: 3.2rem;
+}
+
+.hero .hero__text {
+  padding: 0;
+}
+
+.hero .hero__img-container img {
+  width: 500px;
+}
+
+.main .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.main .main-content .card:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.main-content .card:nth-child(odd) div {
+  margin-right: 40px;
+}
+
+.main-content .card:nth-child(even) div {
+  margin-left: 40px;
+}
+
+.card .card__img-container {
+  padding: 0;
+}
+
+.card .card__img-container img {
+  width: 300px;
+}
