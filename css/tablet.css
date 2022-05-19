@@ -3,16 +3,12 @@
 }
 
 .nav > .nav__logo-container img {
-  width: 150px;
+  width: 130px;
 }
 
 .nav > .nav__small-button {
-  width: 150px;
+  width: 130px;
   padding: 10px 20px;
-}
-
-.hero {
-  align-items: center;
 }
 
 .hero .hero__title {
@@ -23,13 +19,9 @@
   padding: 0;
 }
 
-.hero .hero__img-container img {
-  width: 500px;
-}
-
 .main .card {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: left;
 }
@@ -51,5 +43,11 @@
 }
 
 .card .card__img-container img {
-  width: 300px;
+  min-width: 200px;
+  max-width: 450px;
+  width: 100%;
+}
+
+.footer-content .attribution-block {
+  text-align: right;
 }
